@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Names</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Akan Name</h1>
+        <p class="kkk">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
+        <p class="nnn">Fill the form to know your "akan name".</p>
+
+        <form>
+            <div>
+                <div>
+                        <p id="output"></p>
+                    <label>First Name.</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter" required>
+                    <label>Year</label>
+                    <input type="number" class="form-control" id="year" placeholder="Enter the year." required
+                        min="1990" max="2021" >
+                    <label>Month</label>
+                    <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                        max="12">
+
+                    <label>Day</label>
+                    <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                        max="31">
+                </div>
+                <div class="ggg">
+                    <label>Gender</label><br>
+                    <input type="radio" name="gender" id="male" value="male" checked> Male
+                    <input type="radio" name="gender" id="female" value="female"> Female
+                </div>
+            </div>
+            <button type="submission" class="btn btn-outline-info btn-lg">Submit</button>
+            
+            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+            
+        </form>
+        <footer>
+            copyright &copy; Tinisha website.<br> 2021
+        </footer>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
